@@ -63,7 +63,7 @@ async def group_search(client, message):
                     await asyncio.sleep(300)
                     return await msg.delete()
                 else: return     
-    if settings.get("auto_filter", True)
+    if settings["auto_filter"]:
         if not user_id:
             await message.reply("<b>🚨 ɪ'ᴍ ɴᴏᴛ ᴡᴏʀᴋɪɴɢ ғᴏʀ ᴀɴᴏɴʏᴍᴏᴜꜱ ᴀᴅᴍɪɴ!</b>")
             return
