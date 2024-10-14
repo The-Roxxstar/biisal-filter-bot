@@ -245,6 +245,13 @@ async def start(client:Client, message):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
+
+    if len(message.command) == 2 and message.command[1].startswith('getfile'):
+        movies = message.command[1].split("-", 1)[1] 
+        movie = movies.replace('-',' ')
+        message.text = movie 
+        await auto_filter(client, message) 
+        return
         
     if data.startswith('pm_mode_'):
         pm_mode = True
