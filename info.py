@@ -31,7 +31,7 @@ DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ROXSTAR:ROXSTAR@cluste
 
 DATABASE_NAME = environ.get('DATABASE_NAME', "techvjautobot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'techvjcollection')
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '0'))
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002289731721'))
 QR_CODE = environ.get('QR_CODE', 'https://envs.sh/nJp.jpg')
 START_IMG = environ.get('START_IMG', 'https://envs.sh/nJn.jpg')
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','0'))
