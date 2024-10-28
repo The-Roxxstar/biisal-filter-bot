@@ -24,7 +24,7 @@ REACTIONS = [
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6045160821').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/Royal_X_RoxStar")
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002173261989'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002213256087'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/PopCorn_Movie_Group')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002228576325 -1001934525883 -1002233647976 -1002152906241 -1002152906241 -1002181251938 -1002248009127').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ROXPOP:ROXPOP@cluster0.q17qm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -40,7 +40,7 @@ URL = environ.get('URL', 'mytestbot-jvdfhbj.com')
 STICKERS_IDS = ('CAACAgQAAxkBAAEM0Plm5_GRHxzArLymy-c2ryA4s02HtgACrBYAAi98mVAdrqc4ApXyJjYE').split()
 FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
 IS_VERIFY = is_enabled('IS_VERIFY', False)
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '0'))
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002453298928'))
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/i_popcorn_movie_update/31")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "5bb6e402dd86fb8774690a5f4a65d2a2c0c04877")
